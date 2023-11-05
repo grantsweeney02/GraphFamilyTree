@@ -34,9 +34,9 @@ cd fraternity-family-tree
 
 ## Usage
 Place your tree_data.xlsx file in the root directory of the project and run the script:
-'''
+```
 python family_tree_visualizer.py
-'''
+```
 The script will generate a PNG image named Theta_Tau_family_tree.png, visualizing the fraternity's family tree.
 
 ## File Structure
