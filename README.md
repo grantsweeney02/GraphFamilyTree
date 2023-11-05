@@ -27,10 +27,10 @@ pip install pandas
 pip install graphviz
 ```
 ### Installation
-'''
+```
 git clone https://github.com/your-username/fraternity-family-tree.git
 cd fraternity-family-tree
-'''
+```
 
 ## Usage
 Place your tree_data.xlsx file in the root directory of the project and run the script:
