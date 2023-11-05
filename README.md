@@ -4,15 +4,15 @@ Visualize your fraternity's lineage with this Family Tree Visualizer. Using data
 
 ## Table of Contents
 
-- [Getting Started](##getting-started)
-  - [Prerequisites](###prerequisites)
-  - [Installation](###installation)
-- [Usage](##usage)
-- [File Structure](##file-structure)
-- [Contributing](##contributing)
-- [Authors](##authors)
-- [License](##license)
-- [Acknowledgments](##acknowledgments)
+- [Getting Started](#getting-started)
+  - [Prerequisites](##prerequisites)
+  - [Installation](##installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 
