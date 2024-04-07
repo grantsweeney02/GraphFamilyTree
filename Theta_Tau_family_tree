@@ -1,0 +1,273 @@
+// The Fraternity Family Tree
+digraph {
+	subgraph cluster_Black {
+		rank=same
+		"Kellylyn Brinkac" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Lilly George" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Kellylyn Brinkac" -> "Lilly George"
+		"Logan Richardson" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Fred Ward" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Logan Richardson" -> "Fred Ward"
+		"Kylie Fischer" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Mackenzie Craig" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Sabrina Berry" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Mackenzie Craig" -> "Sabrina Berry"
+		"Katie Tsai" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Catherine Engel" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Katie Tsai" -> "Catherine Engel"
+		"Nicholas Gamolin" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Nicholas Gamolin" -> "Logan Richardson"
+		"Rachel Pritz" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Rachel Pritz" -> "Kylie Fischer"
+		"Rahul Gundamraj" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Carolyn Pitorak" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Carolyn Pitorak" -> "Katie Tsai"
+		"Carolyn Pitorak" -> "Mackenzie Craig"
+		"Caroline Lee" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Caroline Lee" -> "Rachel Pritz"
+		"Black Family" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Avery Baker" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Black Family" -> "Avery Baker"
+		"Black Family" -> "Carolyn Pitorak"
+		"Black Family" -> "Rahul Gundamraj"
+		"Black Family" -> "Caroline Lee"
+		"Black Family" -> "Kellylyn Brinkac"
+		"Avery Baker" -> "Nicholas Gamolin"
+		"Swathi Shekharan" [color=black fillcolor=black fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Avery Baker" -> "Swathi Shekharan"
+	}
+	subgraph cluster_Blue {
+		rank=same
+		"Blue Family" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Brian Luong" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Blue Family" -> "Brian Luong"
+		"Stacy Meng" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Blue Family" -> "Stacy Meng"
+		"Max Black" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Karina Yakubisin" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Justin Yankow" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Anthony Scotto" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Justin Yankow" -> "Anthony Scotto"
+		"Michael Novak" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Michael Novak" -> "Max Black"
+		"Helen Yao" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Gia Oscherwitz" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Helen Yao" -> "Gia Oscherwitz"
+		"Fiona Magee" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Helen Yao" -> "Fiona Magee"
+		"Noah Hassett" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Noah Hassett" -> "Justin Yankow"
+		"Elizabeth Wu" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Stacy Meng" -> "Helen Yao"
+		"Stacy Meng" -> "Elizabeth Wu"
+		"Catherine Nguyen" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Stacy Meng" -> "Catherine Nguyen"
+		"Catherine Nguyen" -> "Karina Yakubisin"
+		"Ryan Bartlett" [color=black fillcolor=blue fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Ryan Bartlett" -> "Michael Novak"
+		"Brian Luong" -> "Noah Hassett"
+		"Brian Luong" -> "Ryan Bartlett"
+	}
+	subgraph cluster_Green {
+		rank=same
+		"Samiya Ahmed" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Lilie Puck-Karam" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Samiya Ahmed" -> "Lilie Puck-Karam"
+		"Ben Tharakan" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Zach Hay" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Ben Tharakan" -> "Zach Hay"
+		"Sharanya Nagendra" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Adnan Murtaza" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Sharanya Nagendra" -> "Adnan Murtaza"
+		"Green Family" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Kiersten Wong" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Green Family" -> "Kiersten Wong"
+		"Zach Wang" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Green Family" -> "Zach Wang"
+		"Orlando Sadek" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Green Family" -> "Orlando Sadek"
+		"Clare Cocker" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Green Family" -> "Clare Cocker"
+		"Kelly Zhou" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Amelia Preble" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Sarah Kota" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Amelia Preble" -> "Sarah Kota"
+		"Gabi Spellman" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Andrew Nguyen-Tran" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Vi Nguyen" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Andrew Nguyen-Tran" -> "Vi Nguyen"
+		"Rishab Gopisetti" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Zach Wang" -> "Rishab Gopisetti"
+		"Kiersten Wong" -> "Kelly Zhou"
+		"Ethan Green" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Ethan Green" -> "Ben Tharakan"
+		"Ethan Green" -> "Amelia Preble"
+		"Ethan Green" -> "Samiya Ahmed"
+		"Ethan Norris" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Ethan Green" -> "Ethan Norris"
+		"Dan O'Connor" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Zach Hay" -> "Dan O'Connor"
+		"Orlando Sadek" -> "Ethan Green"
+		"Orlando Sadek" -> "Andrew Nguyen-Tran"
+		"Derek Liu" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orlando Sadek" -> "Derek Liu"
+		"Derek Liu" -> "Gabi Spellman"
+		"Rick Escudero" [color=black fillcolor=green fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Clare Cocker" -> "Sharanya Nagendra"
+		"Ethan Norris" -> "Rick Escudero"
+	}
+	subgraph cluster_Orange {
+		rank=same
+		"Will Ward" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Meghana Guttikonda" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Siena Rodeschin" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Meghana Guttikonda" -> "Siena Rodeschin"
+		"Eva Butler" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Meghana Guttikonda" -> "Eva Butler"
+		"Andrew TK" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Meghana Guttikonda" -> "Andrew TK"
+		"Vivienne Alleyne" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Robby Smith" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Mia Bonutti" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Glory Gurrola" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Mia Bonutti" -> "Glory Gurrola"
+		"Emilia Crocker" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Mia Bonutti" -> "Emilia Crocker"
+		"Molly Gibson" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Olivia Milner" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Molly Gibson" -> "Olivia Milner"
+		"Morgan Myers" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Morgan Myers" -> "Molly Gibson"
+		"Alexis Blankenship" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Morgan Myers" -> "Alexis Blankenship"
+		"Abby Janiga" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Morgan Myers" -> "Abby Janiga"
+		"Natalie Yee" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Liz Faughnan" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Siena Rodeschin" -> "Liz Faughnan"
+		"Olivia Mergler" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Radha Patel" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Olivia Mergler" -> "Radha Patel"
+		"Orange Family" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Morgan Myers"
+		"Nikki Akula" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Nikki Akula"
+		"Daniel Tohti" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Daniel Tohti"
+		"Catherine Sklar" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Catherine Sklar"
+		"Kristen Pettit-Pokora" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Kristen Pettit-Pokora"
+		"Meredith James" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Meredith James"
+		"Orange Family" -> "Olivia Mergler"
+		"Orange Family" -> "Natalie Yee"
+		"Halbert Nguyen" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Orange Family" -> "Halbert Nguyen"
+		"Anissa Patel" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Meredith James" -> "Anissa Patel"
+		"Nikki Akula" -> "Meghana Guttikonda"
+		"Ethan Haller" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Daniel Tohti" -> "Ethan Haller"
+		"Ethan Haller" -> "Will Ward"
+		"Glory Gurrola" -> "Vivienne Alleyne"
+		"Emma Weinstein" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Hannah Rigby" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Joshua Bird" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Hannah Rigby" -> "Joshua Bird"
+		"Joshua Bird" -> "Mia Bonutti"
+		"Joshua Bird" -> "Emma Weinstein"
+		"Keelin Reilly" [color=black fillcolor=orange fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Kristen Pettit-Pokora" -> "Hannah Rigby"
+		"Kristen Pettit-Pokora" -> "Keelin Reilly"
+		"Kristen Pettit-Pokora" -> "Robby Smith"
+	}
+	subgraph cluster_Pink {
+		rank=same
+		"Annika Sama" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Brian Garmer" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Cade Shaw" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Brian Garmer" -> "Cade Shaw"
+		"Lucille Brown" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Brian Garmer" -> "Lucille Brown"
+		"Colin Heffern" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Brian Garmer" -> "Colin Heffern"
+		"Noah Watkins" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Cade Shaw" -> "Noah Watkins"
+		"Erik Polasek" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Cade Shaw" -> "Erik Polasek"
+		"Alex van Weezendonk" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Cade Shaw" -> "Alex van Weezendonk"
+		"Thao Nguyen" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Sara Altarazi" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Caitlin Fram" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Caroline Coughlin" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Caroline Coughlin" -> "Sara Altarazi"
+		"Zara Masood" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Pink Family" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Pink Family" -> "Brian Garmer"
+		"Kayla Nguyen" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Pink Family" -> "Kayla Nguyen"
+		"Pink Family" -> "Caroline Coughlin"
+		"Larissa Cybyk" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Pink Family" -> "Larissa Cybyk"
+		"Mia deLadurantaye" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Larissa Cybyk" -> "Mia deLadurantaye"
+		"Larissa Cybyk" -> "Annika Sama"
+		"Lucille Brown" -> "Zara Masood"
+		"Olivia Agolini" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Lucille Brown" -> "Olivia Agolini"
+		"Kayla Nguyen" -> "Thao Nguyen"
+		"Jordan Alibrandi" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Kayla Nguyen" -> "Jordan Alibrandi"
+		"Grace Boitnott" [color=black fillcolor=pink fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Mia deLadurantaye" -> "Caitlin Fram"
+		"Jordan Alibrandi" -> "Grace Boitnott"
+	}
+	subgraph cluster_Purple {
+		rank=same
+		"Alex Kim" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Thomas Arnold" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Alex Kim" -> "Thomas Arnold"
+		"Dan Tran" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Alex Kim" -> "Dan Tran"
+		"Titus Lee" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Raina Vardhanapu" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Thomas Arnold" -> "Raina Vardhanapu"
+		"Simon Anderson" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Darsh Devkar" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Simon Anderson" -> "Darsh Devkar"
+		"Purple Family" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Grant Sweeney" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Purple Family" -> "Grant Sweeney"
+		"Purple Family" -> "Alex Kim"
+		"Calvin Reeves" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Purple Family" -> "Calvin Reeves"
+		"Purple Family" -> "Simon Anderson"
+		"Logan Mann" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Grant Sweeney" -> "Logan Mann"
+		"Samuel Glasscock" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Samuel Glasscock" -> "Titus Lee"
+		"Ryan Erny" [color=black fillcolor=purple fontcolor=white fontname=Arial penwidth=2 style=filled]
+		"Calvin Reeves" -> "Ryan Erny"
+		"Calvin Reeves" -> "Samuel Glasscock"
+	}
+	subgraph cluster_White {
+		rank=same
+		"Jordan Giles" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Will Kittrell" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Jordan Giles" -> "Will Kittrell"
+		"Genavive Lotfi" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Tracy Hua" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Tracy Hua" -> "Genavive Lotfi"
+		"Matthew Haid" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Matthew Haid" -> "Tracy Hua"
+		"Ming Ma" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Matthew Haid" -> "Ming Ma"
+		"White Family" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"Bethany Bazemore" [color=black fillcolor=white fontcolor=black fontname=Arial penwidth=2 style=filled]
+		"White Family" -> "Bethany Bazemore"
+		"White Family" -> "Matthew Haid"
+		"Bethany Bazemore" -> "Jordan Giles"
+	}
+}
